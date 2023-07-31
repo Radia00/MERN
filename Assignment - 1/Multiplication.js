@@ -1,5 +1,7 @@
-const number = parseInt(prompt('Enter an integer: '));
-for(let i = 1; i <= 10; i++) {
-    const result = i * number;
-    console.log(`${number} * ${i} = ${result}`);
+function table (number) {
+    for(var i = 1; i <= 10; i++){
+        var res = i*number;
+        console.log(`${number} * ${i} = ${res}`);
+    } 
 }
+table(parseInt(prompt('Enter an integer: ')));
