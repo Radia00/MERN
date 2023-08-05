@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+<body style="text-align: center;">
+	<h1 style="color: green;">
+   	Click Counter
+	</h1>
+	<h4>
+    	Count the number of
+    	times a button is clicked.
+	</h4>
+	<button id="btn">Click Here!</button>
+	<p>
+    	Button Clicked <span id="display">0</span> Times
+	</p>
+	<script type="text/javascript">
+    	let count = 0;
+    	let btn = document.getElementById("btn");
+    	let disp = document.getElementById("display");
+     	
+        btn.addEventListener("click", function () {
+        	count++;
+            disp.innerHTML = count;
+    	});
+     	
+	</script>
+</body>
+</html>
