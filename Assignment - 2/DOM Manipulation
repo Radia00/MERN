@@ -5,7 +5,7 @@
   <h1>DOM Manipulation</h1>
  
   <div id="div1">
-   This is an example of DOM manipulation. Please click the button to see the change of the div   element.
+   This is an example of DOM manipulation. Please click the button to see the change of the div element.
   </div>
  
   <button onclick="myFun()">Click Button</button>
