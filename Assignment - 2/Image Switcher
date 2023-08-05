@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<body>
+<h1>Image Switcher</h1>
+ 
+<button id="button1" onclick="changeImage1()">
+	Image-1
+</button>
+ 
+<img src="" alt="img" id="img">
+ 
+<button id="button2" onclick="changeImage2()">
+	Image-2
+</button>
+ 
+<script>
+  const img = document.getElementById("img");
+  const imageSources1 = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxXnC3fwMwkbIt3ejGRIw3NmbDyUtgS5g2jA&usqp=CAU"];
+ 
+  const imageSources2 =["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTFrhr_-pYR74jUgOy7IerAoHAX3zPIZZcg&usqp=CAU"];
+ 
+  let index = 0;
+  let travel; 
+ 
+  const changeImage1 = () => {
+	if (index === 0) index = imageSources1.length;
+ 
+    clearInterval(travel);
+	img.src = imageSources1[--index];
+	startTravel();
+  }
+ 
+  const changeImage2 = () => {
+	if (index === imageSources2.length - 1) index = -1;
+ 
+    clearInterval(travel);
+	img.src = imageSources2[++index];
+	startTravel();
+  }
+ 
+</script>
+
+</body>
+</html>
