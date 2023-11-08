@@ -5,7 +5,7 @@ function About() {
       <h1 className="text-center my-4">About me</h1>
       <h1 className="text-center">
         Hello Creative People This is{" "}
-        <span className="text-primary d-block">MD. Ashadul Islam</span>
+        <span className="text-primary d-block">Radia</span>
       </h1>
       <h3 className="text-center">I am a Web Developer</h3>
       <p className="text-center">
