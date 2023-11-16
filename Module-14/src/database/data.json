@@ -1,0 +1,168 @@
+{
+  "navbar": ["home", "team", "service", "project", "testimonial"],
+  "logo": "/public/images/logo.png",
+  "hero": {
+    "title": "Increase Your Customers Loyalty and Satisfaction",
+    "description": "We help businesses like yours earn more customers, standout from competitors,  make more money",
+    "button": "Get Started",
+    "images": [
+      "/public/images/home-banner1.png",
+      "/public/images/home-banner2.png",
+      "/public/images/home-banner3.png",
+      "/public/images/home-banner4.png"
+    ]
+  },
+  "slider": {
+    "images": [
+      "/public/images/slack.png",
+      "/public/images/trello.png",
+      "/public/images/monday.png",
+      "/public/images/notion.png",
+      "/public/images/google.png",
+      "/public/images/slack.png",
+      "/public/images/trello.png",
+      "/public/images/monday.png",
+      "/public/images/notion.png",
+      "/public/images/google.png"
+    ]
+  },
+  "workList": {
+    "subtitle": "work list",
+    "title": "We provide the Perfect Solution to your business growth",
+    "cards": [
+      {
+        "title": "Grow Your Business",
+        "description": "We help identify the best ways to improve your business",
+        "icon": "/public/images/activity.png",
+        "btn": "Learn More"
+      },
+      {
+        "title": "Improve brand loyalty",
+        "description": "We help identify the best ways to improve your business",
+        "icon": "/public/images/heart.png",
+        "btn": "Learn More"
+      },
+      {
+        "title": "Grow Your Business",
+        "description": "We help identify the best ways to improve your business",
+        "icon": "/public/images/work.png",
+        "btn": "Learn More"
+      }
+    ]
+  },
+  "counter": [
+    {
+      "number": "240452",
+      "title": "Followers",
+      "icon": "/public/images/user.png"
+    },
+    {
+      "number": "6300",
+      "title": "Solved Problems",
+      "icon": "/public/images/thumb-up.png"
+    },
+    {
+      "number": "25000",
+      "title": "Happy Customers",
+      "icon": "/public/images/happy.png"
+    },
+    {
+      "number": "360452",
+      "title": "Projects",
+      "icon": "/public/images/project.png"
+    }
+  ],
+  "featurePost": {
+    "subtitle": "Featured Project",
+    "title": "We provide the Perfect Solution to your business growth",
+    "posts": [
+      {
+        "title": "Redesign channel website landing page",
+        "category": "APP Design",
+        "image": "/public/images/app2.png",
+        "date": "Jun 01, 2022"
+      },
+      {
+        "title": "Redesign channel website landing page",
+        "category": "APP Design",
+        "image": "/public/images/app3.png",
+        "date": "Jun 01, 2022"
+      },
+      {
+        "title": "Redesign channel website landing page",
+        "category": "APP Design",
+        "image": "/public/images/app4.png",
+        "date": "Jun 01, 2022"
+      },
+      {
+        "title": "Redesign channel website landing page",
+        "category": "APP Design",
+        "image": "/public/images/app5.png",
+        "date": "Jun 01, 2022"
+      }
+    ],
+    "singlePost": {
+      "title": "App Redesign",
+      "category": "APP Design",
+      "image": "/public/images/app1.png",
+      "date": "Jun 01, 2022"
+    }
+  },
+  "newsletter": {
+    "subtitle": "SUBSCRIBE",
+    "title": "Subscribe to get the latest news about us",
+    "description": "Please drop your email below to get daily update about what we do",
+    "inputPlaceholder": "Enter Your Email Address",
+    "button": "Subscribe"
+  },
+  "footer": {
+    "logo": "WEB LOGO",
+    "description": "Some footer text about the  Agency. Just a little description to help people understand you better",
+    "social": [
+      {
+        "icon": "faFacebookF",
+        "link": "#",
+        "title": "Facebook"
+      },
+      {
+        "icon": "faInstagram",
+        "link": "#",
+        "title": "Instagram"
+      },
+      {
+        "icon": "faLinkedinIn",
+        "link": "#",
+        "title": "LinkedinIn"
+      },
+      {
+        "icon": "faTwitter",
+        "link": "#",
+        "title": "Twitter"
+      }
+    ],
+    "link-title": "Quick Links",
+    "links": [
+      {
+        "title": "About Us",
+        "link": "#"
+      },
+      {
+        "title": "Services",
+        "link": "#"
+      },
+      {
+        "title": "Blog",
+        "link": "#"
+      },
+      {
+        "title": "Contact Us",
+        "link": "#"
+      }
+    ],
+    "contact": [
+      "address",
+      "123 Street, New York, USA"
+    ],
+    "copyright": "Copyright © 2023. All Rights Reserved."
+  }
+}
