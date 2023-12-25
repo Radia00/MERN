@@ -1,0 +1,11 @@
+// Example middleware for security
+const isAuthenticated = (req, res, next) => {
+  // Implement your authentication logic here
+  if (req.user) {
+    next();
+  } else {
+    res.status(401).json({ message: 'Unauthorized' });
+  }
+};
+
+module.exports = isAuthenticated;
