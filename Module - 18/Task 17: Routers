@@ -1,0 +1,34 @@
+// Example router setup
+const express = require('express');
+const router = express.Router();
+
+const ProductController = require('../controllers/ProductController');
+const UserController = require('../controllers/UserController');
+const WishController = require('../controllers/WishController');
+const CartController = require('../controllers/CartController');
+const ProfileController = require('../controllers/ProfileController');
+
+router.get('/ProductBrandList', ProductController.getProductBrandList);
+router.get('/ProductCategoryList', ProductController.getProductCategoryList);
+router.get('/ProductSliderList', ProductController.getProductSliderList);
+router.get('/ProductListByBrand/:BrandID', ProductController.getProductListByBrand);
+router.get('/ProductListByCategory/:CategoryID', ProductController.getProductListByCategory);
+router.get('/ProductListBySimilar/:CategoryID', ProductController.getProductListBySimilar);
+router.get('/ProductListByKeyword/:Keyword', ProductController.getProductListByKeyword);
+router.get('/ProductListByRemark/:Remark', ProductController.getProductListByRemark);
+router.get('/ProductDetails/:ProductID', ProductController.getProductDetails);
+router.get('/ProductReviewList/:ProductID', ProductController.getProductReviewList);
+router.get('/UserOTP/:email', UserController.getUserOTP);
+router.get('/VerifyLogin/:email/:otp', UserController.verifyLogin);
+router.get('/UserLogout', UserController.userLogout);
+router.post('/CreateProfile', ProfileController.createProfile);
+router.post('/UpdateProfile', ProfileController.updateProfile);
+router.get('/ReadProfile', ProfileController.readProfile);
+router.post('/SaveWishList', WishController.saveWishList);
+router.post('/RemoveWishList', WishController.removeWishList);
+router.get('/WishList', WishController.getWishList);
+router.post('/SaveCartList', CartController.saveCartList);
+router.post('/RemoveCartList', CartController.removeCartList);
+router.get('/CartList', CartController.getCartList);
+
+module.exports = router;
